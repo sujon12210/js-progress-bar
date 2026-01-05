@@ -1,0 +1,27 @@
+body{
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f8fafc;
+}
+
+.box{
+  width:300px;
+  text-align:center;
+}
+
+.bar{
+  background:#e5e7eb;
+  height:20px;
+  border-radius:10px;
+  overflow:hidden;
+  margin-bottom:10px;
+}
+
+#progress{
+  height:100%;
+  width:0%;
+  background:#22c55e;
+}
